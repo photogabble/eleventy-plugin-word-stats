@@ -1,0 +1,44 @@
+{
+  "name": "eleventy-plugin-word-stats",
+  "version": "1.0.0",
+  "description": "Word Stats plugin for Eleventy",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "eleventy-plugin",
+    "word count",
+    "read time",
+    "reading time"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photogabble/eleventy-plugin-word-stats.git"
+  },
+  "author": {
+    "name": "Simon Dann",
+    "url": "https://photogabble.co.uk/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/photogabble/eleventy-plugin-word-stats/issues"
+  },
+  "homepage": "https://github.com/photogabble/eleventy-plugin-word-stats#readme",
+  "peerDependencies": {
+    "@11ty/eleventy": "*"
+  },
+  "peerDependenciesMeta": {
+    "@11ty/eleventy": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "reading-time": "^1.5.0"
+  },
+  "devDependencies": {
+    "ava": "^4.0.1"
+  }
+}
