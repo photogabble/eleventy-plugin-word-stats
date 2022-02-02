@@ -1,5 +1,5 @@
 {
-  "name": "eleventy-plugin-word-stats",
+  "name": "@photogabble/eleventy-plugin-word-stats",
   "version": "1.0.0",
   "description": "Word Stats plugin for Eleventy",
   "keywords": [
@@ -18,10 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/photogabble/eleventy-plugin-word-stats.git"
   },
-  "author": {
-    "name": "Simon Dann",
-    "url": "https://photogabble.co.uk/"
-  },
+  "author": "Simon Dann (https://photogabble.co.uk/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/photogabble/eleventy-plugin-word-stats/issues"
@@ -40,5 +37,8 @@
   },
   "devDependencies": {
     "ava": "^4.0.1"
+  },
+  "directories": {
+    "test": "tests"
   }
 }

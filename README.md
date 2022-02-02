@@ -5,7 +5,7 @@ A lightweight wrapper for making available [reading-time](https://www.npmjs.com/
 ## Install
 
 ```
-npm install --save eleventy-plugin-word-stats
+npm i @photogabble/eleventy-plugin-word-stats
 ```
 
 ## Usage
