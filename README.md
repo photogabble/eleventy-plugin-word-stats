@@ -13,7 +13,7 @@ npm i @photogabble/eleventy-plugin-word-stats
 In your Eleventy config file (defaults to .eleventy.js):
 
 ```js
-const wordStats = require('eleventy-plugin-word-stats');
+const wordStats = require('@photogabble/eleventy-plugin-word-stats');
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(wordStats);
