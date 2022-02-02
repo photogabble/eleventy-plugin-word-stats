@@ -28,11 +28,10 @@ Now the `wordStats` filter will be available to use in your templates. For examp
 Which will by default output along the lines of:
 
 ```html
-<p>1,244 words, 6 min read</p>
+<p>1244 words, 6 min read</p>
 ```
 
 ## Configuration
-
 ```ts
 interface Options {
   output?: (stats: object) => string;
@@ -52,3 +51,12 @@ interface ReadTimeResults {
   minutes: number;
 }
 ```
+
+## Not invented here
+If all you need is the word count formatted, there are two very good alternatives to this plugin:
+
+- [eleventy-plugin-time-to-read](https://www.npmjs.com/package/eleventy-plugin-time-to-read)
+- [eleventy-plugin-reading-time](https://www.npmjs.com/package/eleventy-plugin-reading-time)
+
+## License
+This 11ty plugin is open-sourced software licensed under the [MIT License](LICENSE)
