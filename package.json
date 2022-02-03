@@ -7,8 +7,12 @@
     "eleventy",
     "eleventy-plugin",
     "word count",
+    "word",
+    "count",
     "read time",
-    "reading time"
+    "reading time",
+    "reading",
+    "time"
   ],
   "main": "index.js",
   "scripts": {
