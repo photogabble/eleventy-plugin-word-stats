@@ -3,13 +3,11 @@
 A lightweight wrapper for making available [reading-time](https://www.npmjs.com/package/reading-time) to the [Eleventy](https://www.11ty.dev/) Static Site Generator.
 
 ## Install
-
 ```
 npm i @photogabble/eleventy-plugin-word-stats
 ```
 
 ## Usage
-
 In your Eleventy config file (defaults to .eleventy.js):
 
 ```js
