@@ -1,6 +1,6 @@
 {
   "name": "@photogabble/eleventy-plugin-word-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Word Stats plugin for Eleventy",
   "keywords": [
     "11ty",
